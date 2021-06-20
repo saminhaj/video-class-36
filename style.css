@@ -1,0 +1,142 @@
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Roboto', sans-serif;
+}
+span,p{
+    font-family: 'Rubik', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* finix content */
+.finix-content{}
+.finix-content h6 {
+  color: #e73c3e;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.finix-content h2 {
+  font-size: 37px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.finix-content p {
+	color: #606060;
+	font-weight: 400;
+	font-size: 17px;
+	margin: auto;
+}
+
+/* service */
+
+
+
+.service span {
+	font-size: 25px;
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	box-shadow: 1px 1px 10px #ddd;
+	line-height: 70px;
+	border-radius: 50%;
+	color: #606060;
+	margin-bottom: 20px !important;
+	margin: auto;
+}
+.service-content ul li a.active span {
+	color: #e73c3e;
+}
+.service-content ul li a.active{
+    position: relative;
+}
+.service-content ul li a.active::before {
+	content: "";
+	position: absolute;
+	bottom: -21px;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #e73c3e;
+}
+  .service {
+    background: #f9fafb;
+  }
+  .service strong {
+	color: #000;
+	font-weight: 600;
+	font-size: 20px;
+}
+  .service-content ul {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 59px;
+  }
+
+
+  .service-text{
+  }
+.service-text ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 25px;
+  }
+  .service-text li {
+    position: relative;
+    color: #606060;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 6px 0;
+  }
+  .service-text li::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    background: #e73c3e;
+    border-radius: 50%;
+  }
+  .service-text h2 {
+    font-size: 31px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .service-text p {
+    color: #606060;
+    margin-bottom: 29px;
+  }
+
+  /* client */
+
+  .client-text p {
+    font-size: 21px;
+  }
+  .client-text h5 {
+    color: #e83b3e;
+    font-size: 18px;
+  }
+  .client-text h6 {
+    color: #606060;
+    font-size: 15px;
+    font-weight: 400;
+  }  
+
+  .client-img{
+    position: relative;
+  }
+
+  .client-img span {
+    position: absolute;
+    border: ;
+    bottom: 50px;
+    left: 87px;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    color: #e83b3e;
+    border-radius: 50%;
+  }
