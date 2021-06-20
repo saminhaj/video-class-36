@@ -128,7 +128,6 @@ img{
 
   .client-img span {
     position: absolute;
-    border: ;
     bottom: 50px;
     left: 87px;
     width: 80px;
@@ -139,4 +138,76 @@ img{
     font-size: 35px;
     color: #e83b3e;
     border-radius: 50%;
+  }
+
+  /* team */
+
+  .team-member{}
+
+  .team-box{}
+  .team-box-top{
+    position: relative;
+  }
+  .team-box-top img{}
+  .team-social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .team-social ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+ 
+    
+  }
+  .team-social ul  li{
+    display: inline-block;
+    transform: translateY(70px);
+    opacity: 0;
+    transition: .5s ease-in-out; 
+    visibility: hidden;
+  }
+  .team-social ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    font-size: 23px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #111;
+  }
+  .team-social ul li a:hover{
+    color: #e73c3e;
+  }
+  .team-box-top:hover .team-social ul li{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  .team-box-top:hover .team-social ul li:nth-child(1){
+    transition: .2s;
+  
+  }
+  .team-box-top:hover .team-social ul li:nth-child(2){
+    transition: .4s;
+  }
+  
+  .team-box-top:hover .team-social ul li:nth-child(3){
+    transition: .6s;
+  }
+  
+  .team-box-top:hover .team-social ul li:nth-child(4){
+    transition: .8s;
+  }
+  .team-box-bottom{}
+  .team-box-content h4 {
+    color: #e73c3e;
+    margin-top: 20px;
+  }
+  .team-box-content p {
+    color: #606060;
   }
